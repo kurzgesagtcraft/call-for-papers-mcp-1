@@ -1,4 +1,10 @@
-version: 1
-start:
-  command: ["python", "server.py"]
-  port: 8000
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    properties: {}
+  commandFunction:
+    |-
+    (config) => ({ command: 'python', args: ['-m', 'server'] })
+  exampleConfig: {}
