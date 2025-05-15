@@ -1,4 +1,4 @@
-# ConferenceSearcher MCP
+# Call For Papers MCP
 
 A Smithery MCP for searching academic conferences and events from WikiCFP.
 
